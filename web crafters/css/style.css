@@ -147,3 +147,72 @@ section {
 #project-list p {
     font-size: 18px; 
 }
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.5em 1em;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 1em;
+        font-size: 16px;
+    }
+
+    #web-crafters {
+        font-size: 80px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .about-content {
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .text, .image {
+        width: 100%;
+        float: none;
+    }
+
+    #project-list {
+        text-align: center;
+    }
+
+    #project-list a {
+        font-size: 24px;
+    }
+
+    #project-list p {
+        font-size: 16px;
+    }
+
+    .contact-details {
+        text-align: center;
+    }
+
+    .contact-entry {
+        margin-bottom: 2em;
+    }
+
+    .contact-entry img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .contact-details h2 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
