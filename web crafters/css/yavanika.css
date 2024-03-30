@@ -1,0 +1,96 @@
+body {
+    font-family: 'New Century Schoolbook', TeX Gyre Schola, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fa6368;
+    background-color: hsl(283, 70%, 4%);
+}
+
+header {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#header-content {
+    text-align: center;
+}
+
+#header-content font {
+    margin: 5px 0;
+}
+
+#watermark {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2; 
+    z-index: -1; 
+    width: 500px;  
+    height: auto;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    text-align: center; 
+}
+
+#about-yavanika {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#about-content {
+    margin-top: 40px; 
+    font-size: 20px;
+}
+
+#visit-section {
+    text-align: center;
+}
+
+#visit-section h2 {
+    margin: 10;
+}
+
+#visit-section p {
+    margin: 10px 0;
+}
+
+#visit-section a {
+    font-size: 20px; 
+    display: block; 
+    margin-top: 10px; 
+    color: #8aacf1;
+}
+#yavanika-images {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#yavanika-images img {
+    width: 10%; 
+    margin: 10px;
+    border: 2px solid #333; 
+}
+
+
+
+
