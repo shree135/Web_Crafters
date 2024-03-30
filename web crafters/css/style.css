@@ -166,8 +166,11 @@ section {
 
     #web-crafters {
         font-size: 70px;
-        margin-top: 10px;
+        margin-top: 100px;
         text-align: center;
+    }
+    #watermark{
+        width: 400px;
     }
 
     .about-content {
@@ -211,3 +214,8 @@ section {
         font-size: 20px;
     }
 }
+
+
+
+
+
